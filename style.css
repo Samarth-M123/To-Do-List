@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #040963;
+}
+
+.block {
+    width: 30%;
+    height: 55%;
+    background-color: #e9f2f2;
+    border-radius: 20px;
+}
+
+.content {
+    margin-left: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    height: 100%;   
+}
+
+#input-label {
+    width: 55%;
+    padding: 2.25% 4%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: 0;
+}
+
+#submit-button {
+    padding: 2.25%;
+    width: 20%;
+    background-color: orange;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#submit-button:hover {
+    background-color: darkorange;
+}
+
+.goals {
+    height: 220px;
+    overflow-y: auto;
+}
+
+.radio-class {
+    accent-color: orange;
+    transform: scale(1.75);
+    margin-bottom: 5%;
+}
+
+.radio-class:checked + label {
+    text-decoration: line-through;
+}
+
+.task-list {
+    margin: 5% 0 0 1%;
+    padding: 0;
+}
+
+.radioText {    
+    margin-left: 2.25%;
+}
